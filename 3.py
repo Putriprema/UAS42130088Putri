@@ -16,7 +16,7 @@ n = len(data)
 
 # looping untuk mencari rata - rata
 jumlah = 0
-for nilai in range (0, n):
+for nilai in data:
     jumlah +=int(nilai)
     rata = jumlah/n
 
